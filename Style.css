@@ -1,0 +1,119 @@
+body {
+    background-color: #767676;
+}
+
+.heading {
+    color: #932539;
+    border: solid #e8312b 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    background-color: white;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+    width: 400px;
+    margin: auto;
+}
+.layout {
+    border: #32751b solid 5px;
+    display: flex;
+    position: relative;
+    height: 700px;
+}
+.box {
+    color: #080008;
+    border: solid #e8312b 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    background-color: white;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+    height: 200px;
+    width: 300px;
+}
+.box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box2 {
+    position: absolute;
+    padding-top: 20px;
+    height: 180px;
+    top: 0;
+    right: 5px;
+}
+.box3 {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    text-align: left;
+}
+.box4 {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.float {
+    position: fixed;
+    bottom: 20px;
+    left: 35%;
+    right: 35%;
+    display:flex;
+    border: solid #e8312b 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    z-index: 1;
+    background-color: #a0f33c;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text {
+    text-align: center;
+    font-style: italic;
+    color: #932539;
+    width: 170px;
+}
+.layout-2 {
+    border: solid #762673 5px;
+    margin: auto;
+    background-color: #32751b;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    position: relative;
+
+}
+.item-head {
+    margin-left: auto;
+    margin-right: auto;
+}
+.item {
+    background-color: #ede280;
+    font-style: italic;
+    text-align: center;
+    border: groove 2px;
+}
+.box-f {
+    width: 395px;
+    height: 200px;
+    position: absolute;
+    left: 1px;
+    top: 100px;
+}
+.box-v {
+    width: 395px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.box-o {
+    width: 795px;
+    height: 190px;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
